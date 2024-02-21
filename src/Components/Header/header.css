@@ -10,8 +10,7 @@
     background-color: rgb(20, 20, 20);
     padding: 2px;
   } 
-
-  /* Container for the header content */
+/* Container for the header content */
 .header_inner_container {
     display: flex;
     height: 10vh;
@@ -20,8 +19,7 @@
     max-width: 100%; 
     margin: 0 auto;
   }  
-  
-  /* Styles for the left section of the header */
+/* Styles for the left section of the header */
 .header_left ul {
     list-style: none;
     display: flex;
@@ -43,7 +41,6 @@
 .header_left ul li img {
     width: 95px;
   }  
-  
   /* Styles for the right section of the header */
   .header_right ul {
     list-style: none;
@@ -54,11 +51,10 @@
     color: #fff;
   }  
   
-  .header_right ul li {
+.header_right ul li {
     margin-right: 15px;
     color: #fff; 
   }  
-  
   /* Additional styling for the icons (Search, Notifications, Account, Arrow) */
   .header_right ul li svg {
     width: 0.65em;
