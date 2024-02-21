@@ -1,10 +1,10 @@
 .footer_outer_container {
     background-color: #111;
-    color:grey;
+    color:rgb(234, 220, 220);
     display: flex;
     justify-content: center;
     }
-    .footer_inner_container{
+.footer_inner_container{
     width: 60%;
     }
 .footer_icons{
@@ -24,12 +24,12 @@
     justify-content: space-between;
     }
  .footer_data ul{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 14vh;
-        }
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 14vh;
+  }
     
 .footer_data ul li{
    cursor: pointer;
@@ -44,7 +44,7 @@
     justify-content: center;
     border:#fff 1px solid;
     width:15%;
-    margin:10px 20px;
+    margin:10px 35px;
     cursor: pointer;
         }
 .service_code:hover{
@@ -54,4 +54,9 @@
 .copy-write{
    font-size: 12px;
    margin-bottom:60px;
+   margin-left: 30px;
         }
+.copy-write:hover{
+     color: greenyellow;
+     text-decoration: underline;
+}
